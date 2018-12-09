@@ -10,6 +10,6 @@ https://bmeedu-my.sharepoint.com/:u:/g/personal/matyasg_edu_bme_hu/ESad5rlTMn9Ok
 
 The images can be downloaded separately by the given script FINAL/image_downloader_script.ipynb 
 
-After they are downloaded, they must be rendamed to incrementing numbers
+After they are downloaded, they must be renamed to incrementing numbers
 It can be easily done by this PowerShell script: 
 Dir | %{Rename-Item $_ -NewName ("{0}.jpg" -f $nr++)}
